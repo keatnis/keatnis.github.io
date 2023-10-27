@@ -1,0 +1,27 @@
+.menu {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 20px;
+  width: auto;
+  background-color: gray;
+  height: 40px;
+  border-radius: 8px; }
+
+.menu-item {
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: larger;
+  font-family: monospace; }
+
+.menu-item :hover {
+  text-decoration: none; }
+
+body {
+  background-color: rgba(19, 20, 19, 0.76); }
+
+.contenedor-box {
+  border: 5px #919113 solid; }
+
+/*# sourceMappingURL=style.css.map */

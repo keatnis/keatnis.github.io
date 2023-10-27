@@ -1,0 +1,32 @@
+$color_primary: rgb(144,25,02);
+$theme_color: rgba(19, 20, 19, 0.76);
+.menu{
+    display: flex;
+    
+    align-items: center;
+    align-self: center;
+    padding: 20px;
+    width: auto;
+    background-color: gray;
+    height: 40px;
+    border-radius: 8px;
+}
+.menu-item {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-family: monospace;
+}
+.menu-item :hover{
+    text-decoration: none;
+}
+
+body{
+background-color: $theme_color;
+}
+.contenedor-box{
+    border: 5px rgb(145, 145, 19) solid ;
+    // border-top: 5px;
+    // border-style: solid;
+}
